@@ -24,17 +24,22 @@
 			$users = simplexml_load_file("data.xml");
 			
 			$data = $users->user;
-			echo $data[1]->username;
-			for( $i=0;$i<3;$i++)
+			//echo $data[1]->username;
+			$i=0;
+			for( ;$i<3;$i++)
 			{
 				
 				if($data[$i]->username == $uname && $data[$i]->password == $pass)
 				{
 					header("Location: dashboard.php");
+					break;
 				}
 					
 			}
-			
+			if($i>2)
+			{
+				echo "invalid id or pass";
+			}
 			//$user = $users->addChild("user");
 			//$user->addChild("username",$uname);
 			//$user->addChild("password",$pass);
