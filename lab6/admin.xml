@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<users>
+  <user>
+    <name>dasdads</name>
+    <password>aA12345678#</password>
+    <username>dasdasda</username>
+    <gender>Female</gender>
+    <email>a@c.com</email>
+    <phone>5345345345</phone>
+    <city/>
+  </user>
+  <user>
+    <name>dasdads</name>
+    <password>aA12345678#</password>
+    <username>dasdasda</username>
+    <gender>Male</gender>
+    <email>a@c.com</email>
+    <phone>5345345345</phone>
+    <city>Dhaka</city>
+  </user>
+  <user>
+    <name>imran</name>
+    <password>aA12345678#</password>
+    <username>mdimranmd</username>
+    <gender>Female</gender>
+    <email>a@c.com</email>
+    <phone>5345345345</phone>
+    <city>Dhaka</city>
+  </user>
+</users>
